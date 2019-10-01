@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "de.appplant.cordova.plugin.local-notification": {
+      "PACKAGE_NAME": "com.example.healthlife"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.example.healthlife"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.example.healthlife"
+    },
+    "cordova-plugin-app-event": {
+      "PACKAGE_NAME": "com.example.healthlife"
+    }
+  }
+}

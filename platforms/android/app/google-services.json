@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "476244155907",
+    "firebase_url": "https://healthlife-95e7a.firebaseio.com",
+    "project_id": "healthlife-95e7a",
+    "storage_bucket": "healthlife-95e7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476244155907:android:5e67f0e569898a8e",
+        "android_client_info": {
+          "package_name": "com.example.healthlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476244155907-87lsv57k524da5ks0p3937pnno5ls72r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5XnZUWAA-9aJtnj4kNSImOEIapzk3Guo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476244155907-87lsv57k524da5ks0p3937pnno5ls72r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;">
+        <meta http-equiv="Content-Security-Policy" content="default-src * gap://ready file:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">                
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">        
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" type="text/css" href="css/index.css">    
+        <script type="text/javascript" src="js/index.js"></script>    
+        <title>Login</title>
+    </head>
+    <body onload="login();" class="white">
+        <div id="deviceready">
+            <p class="event listening"></p>
+            <p class="event received hide"></p>
+        </div>
+        
+        <h3 class="center-align blue-text text-darken-1">Login</h3>
+        
+        <div class="row">
+            <form class="col s12">
+                <div class="row">            
+                    <div class="input-field col s12">
+                        <input id="name" type="text" class="validate">
+                        <label for="name">Nome Completo</label>
+                    </div>
+                </div>            
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>                            
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Senha</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <p class="center">
+            <a id="entrar" class="waves-effect waves-light btn">Entrar</a>
+        </p>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"> </script>       
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>        
+        <script type="text/javascript" src="js/materialize.min.js"></script>        
+        <script type="text/javascript" src="cordova.js"></script>        
+        <script type="text/javascript" src="js/login.js"></script>
+    </body>
+</html>
